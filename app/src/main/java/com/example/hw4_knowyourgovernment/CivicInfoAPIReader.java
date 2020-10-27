@@ -13,7 +13,7 @@ import java.net.URL;
 public class CivicInfoAPIReader extends AsyncTask<String,Void,String> {
     private static final String TAG = "CivicInfoAPIReader";
     private MainActivity mainActivity;
-    private String key = "AIzaSyA4Kk1ssYbf5SH6VxGbqV5QzlxlJuNjB1E";
+    private String key = "API_KEY";
     private String location;
 
     public CivicInfoAPIReader(MainActivity mainActivity) {  //Constructor
